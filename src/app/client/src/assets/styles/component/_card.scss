@@ -7,7 +7,7 @@
   border-radius: $sb-card-border-radius;
   cursor: pointer;
   overflow: hidden;
-  margin-top: $sb-card-hover-movement;
+  //margin-top: $sb-card-hover-movement;
   &:hover {
     transform: translateY(-$sb-card-hover-movement);
     box-shadow: $sb-card-box-shadow;

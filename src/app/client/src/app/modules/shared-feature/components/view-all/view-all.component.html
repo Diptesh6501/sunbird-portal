@@ -10,8 +10,8 @@
         </div>
     </div>
 <div class="ui container" [appTelemetryImpression]="telemetryImpression">
-    <div class="sb-pageSection m-0">
-        <div class="sb-pageSection-header">
+    <div class="sb-pageSection mt-24">
+        <div class="sb-pageSection-header" *ngIf="!showLoader">
             <h4 class="sb-pageSection-title m-0 mr-5">{{sectionName}}</h4>
             <!-- Need to show total count in view page -->
             <!-- <span class="sb-pageSection-count sb-label sb-label-xs sb-label-warning ml-8">25</span> -->
